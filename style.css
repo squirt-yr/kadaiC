@@ -1,0 +1,20 @@
+/* style.css */
+@charset "utf-8";
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    display: grid;                  /* CSSグリッド */
+    grid-template-columns: 100vw;   /* ビューポート幅最大 */
+    grid-template-rows: 100vh;      /* ビューポート高さ最大 */
+}
+  
+main{
+    justify-self: center;   /* 横方向中央揃え */
+    align-self: center;     /* 縦方向中央揃え */
+  
+    font-size: 18vw;
+}
