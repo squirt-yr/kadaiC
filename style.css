@@ -18,3 +18,16 @@ main{
   
     font-size: 10vw;
 }
+
+p{
+    font-family: 'Roboto Mono', monospace;  /* Google Fonts */
+    /*
+        文字をグラデーション表示
+            参考URL：https://kouhekikyozou.com/css_text_gradation
+    */
+    display: inline-block;
+    background: linear-gradient(90deg, #4158D0, #C850C0 30%, #FFCC70);
+    background: -webkit-linear-gradient(0deg, #4158D0, #C850C0 30%, #FFCC70);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
