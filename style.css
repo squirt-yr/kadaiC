@@ -8,8 +8,8 @@
  
 body{
     display: grid;                  /* CSSグリッド */
-    grid-template-columns: 80vw;   /* ビューポート幅最大 */
-    grid-template-rows: 80vh;      /* ビューポート高さ最大 */
+    grid-template-columns: 100vw;   /* ビューポート幅最大 */
+    grid-template-rows: 100vh;      /* ビューポート高さ最大 */
 }
   
 main{
