@@ -7,6 +7,7 @@
 }
  
 body{
+    background-color: #fdf5e6;      /* 背景色 */
     display: grid;                  /* CSSグリッド */
     grid-template-columns: 100vw;   /* ビューポート幅最大 */
     grid-template-rows: 100vh;      /* ビューポート高さ最大 */
@@ -16,18 +17,32 @@ main{
     justify-self: center;   /* 横方向中央揃え */
     align-self: center;     /* 縦方向中央揃え */
   
-    font-size: 10vw;
 }
 
-p{
-    font-family: 'Roboto Mono', monospace;  /* Google Fonts */
+.clock{
+    font-size: 10vw;
+    font-family: 'Old Standard TT', monospace;  /* Google Fonts */
     /*
         文字をグラデーション表示
             参考URL：https://kouhekikyozou.com/css_text_gradation
     */
     display: inline-block;
-    background: linear-gradient(90deg, #4158D0, #C850C0 30%, #FFCC70);
-    background: -webkit-linear-gradient(0deg, #4158D0, #C850C0 30%, #FFCC70);    
+    background: linear-gradient(90deg, #66cdaa, #4169e1 30%, #ff1493);
+    background: -webkit-linear-gradient(0deg, #66cdaa, #4169e1 30%, #ff1493);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.clockDate{
+    font-size: 5vw;
+    font-family: 'Old Standard TT', monospace;  /* Google Fonts */
+    /*
+        文字をグラデーション表示
+            参考URL：https://kouhekikyozou.com/css_text_gradation
+    */
+    display: inline-block;
+    background: linear-gradient(90deg, #66cdaa, #4169e1 30%, #ff1493);
+    background: -webkit-linear-gradient(0deg, #66cdaa, #4169e1 30%, #ff1493);    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
