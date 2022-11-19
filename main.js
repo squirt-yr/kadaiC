@@ -30,7 +30,7 @@ const digitalClock = ()=>{
     ];
  
     // 表示
-    const txtDigitalClockDate = `${txtYear}:${txtMonth}:${txtDate}:${txtDay}`;
+    const txtDigitalClockDate = `${txtYear}.${txtMonth}.${txtDate}.${txtDay}`;
     const txtDigitalClock = `${txtHour}:${txtMinute}:${txtSecond}`;
     clockDate.textContent = txtDigitalClockDate;
     clock.textContent = txtDigitalClock;
